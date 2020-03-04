@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+
+  background-image: grey;
+}
+
+div {
+  margin: 6px 6px 6px 6px;
+  max-width: 700px;
+  padding: 4px;
+  padding-top: 4px;
+  border: 12px solid coral;
+}
+h1 {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+h3 {
+  color: antiquewhite;
+  margin-bottom: 6px;
+  display: inline-block;
+}
